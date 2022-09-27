@@ -10,7 +10,7 @@ import {
   Item,
   Label,
   Quantity,
-} from './Profile.styled';
+} from 'components/Profile/Profile.styled';
 
 export const Profile = ({
   username,

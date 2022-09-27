@@ -5,7 +5,7 @@ import {
   Title,
   StatisticsList,
   StatisticsElement,
-} from './Statistics.styled';
+} from 'components/Statistics/Statistics.styled';
 
 export const Statistics = ({ title, stats }) => {
   return (

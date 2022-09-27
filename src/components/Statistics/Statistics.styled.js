@@ -10,13 +10,15 @@ export const StatisticsWraper = styled.section`
 export const StatisticsBox = styled.div`
   background-color: white;
   border: 1px solid #8080804a;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
 `;
 export const Title = styled.h2`
-  font-size: 22px;
+  font-size: 24px;
   font-weight: bold;
   text-align: center;
   margin: 0;
-  padding: 2vw;
+  padding: 1.5vw;
 `;
 export const StatisticsList = styled.ul`
   margin: 0;
@@ -34,12 +36,25 @@ function getRandomHexColor() {
 }
 
 export const StatisticsElement = styled.li`
+  font-size: 20px;
   background-color: ${getRandomHexColor};
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 5px;
   border: 2px solid #8080804a;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-shadow: -0 -1px 3px rgba(252, 247, 247, 0.99),
+    0 -1px 3px rgba(252, 247, 247, 0.99), -0 1px 3px rgba(252, 247, 247, 0.99),
+    0 1px 3px rgba(252, 247, 247, 0.99), -1px -0 3px rgba(252, 247, 247, 0.99),
+    1px -0 3px rgba(252, 247, 247, 0.99), -1px 0 3px rgba(252, 247, 247, 0.99),
+    1px 0 3px rgba(252, 247, 247, 0.99), -1px -1px 3px rgba(252, 247, 247, 0.99),
+    1px -1px 3px rgba(252, 247, 247, 0.99),
+    -1px 1px 3px rgba(252, 247, 247, 0.99),
+    1px 1px 3px rgba(252, 247, 247, 0.99),
+    -1px -1px 3px rgba(252, 247, 247, 0.99),
+    1px -1px 3px rgba(252, 247, 247, 0.99),
+    -1px 1px 3px rgba(252, 247, 247, 0.99),
+    1px 1px 3px rgba(252, 247, 247, 0.99);
 `;

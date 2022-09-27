@@ -15,6 +15,8 @@ export const Description = styled.div`
   border-bottom: 0;
   padding-top: 20px;
   padding-bottom: 20px;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
 `;
 export const Avatar = styled.img`
   margin: 0 auto;
@@ -50,8 +52,9 @@ export const Stats = styled.ul`
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   text-align: center;
-
   list-style: none;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
 `;
 export const Item = styled.li`
   height: 6.5vw;
